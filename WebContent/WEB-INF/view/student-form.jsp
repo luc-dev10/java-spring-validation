@@ -18,6 +18,14 @@
 		Last name: <form:input path="lastName" />
 		<br />
 		<br />
+		Age: <form:input path="age" />
+		<form:errors path="age" />
+		<br />
+		<br />
+		Postal Code: <form:input path="postalCode" />
+		<form:errors path="postalCode" />
+		<br />
+		<br />		
 		<input type="submit" value="submit"/>
 	</form:form>
 	
