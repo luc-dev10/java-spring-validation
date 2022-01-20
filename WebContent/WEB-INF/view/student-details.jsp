@@ -11,7 +11,8 @@
 	<p>First Name: ${student.firstName}</p>
 	<p>Last Name: ${student.lastName}</p>
 	<p>Last Name: ${student.age}</p>
-	<p>Last Name: ${student.postalCode}</p>
+	<p>postal code: ${student.postalCode}</p>
+	<p>course code: ${student.courseCode}</p>
 	
 </body>
 </html>

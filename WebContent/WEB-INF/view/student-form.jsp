@@ -25,7 +25,11 @@
 		Postal Code: <form:input path="postalCode" />
 		<form:errors path="postalCode" />
 		<br />
-		<br />		
+		<
+		Course Code: <form:input path="courseCode" />
+		<form:errors path="courseCode" />
+		<br />
+		<br />	
 		<input type="submit" value="submit"/>
 	</form:form>
 	

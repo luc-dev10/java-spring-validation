@@ -6,7 +6,12 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import com.spring.validation.annotation.CourseCode;
+
 public class Student {
+
+	@CourseCode
+	private String courseCode;
 
 	@NotNull(message = "is required")
 	@Size(min = 1, message = "is required")
@@ -24,6 +29,14 @@ public class Student {
 
 	public String getPostalCode() {
 		return postalCode;
+	}
+
+	public String getCourseCode() {
+		return courseCode;
+	}
+
+	public void setCourseCode(String courseCode) {
+		this.courseCode = courseCode;
 	}
 
 	public void setPostalCode(String postalCode) {
